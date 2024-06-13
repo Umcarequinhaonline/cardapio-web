@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CardapioWeb.Models
 {
-    [Table("Categorias")]
-    public class Categoria
+    [Table("Categorias")] // quando o codigo for lido irá buscar no banco de dados 
+    public class Categoria //ela é o objeto em si, a categoria em si
     {
         [Key]
         public int Id { get; set; }
